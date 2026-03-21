@@ -153,6 +153,7 @@ export default function PeptideTherapyPage() {
 
       <GHLFormEmbed 
         type="calendar"
+        embedUrl="https://app.gohighlevel.com/v2/preview/QJd9Fb7LQrsn4eyiqRNS?notrack=true"
         isOpen={isBookingOpen}
         onClose={() => setIsBookingOpen(false)}
       />

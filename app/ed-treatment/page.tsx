@@ -1,8 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import { Navbar } from "@/components/Navbar";
-import { Footer } from "@/components/Footer";
 import { GHLFormEmbed } from "@/components/GHLFormEmbed";
 import { ChevronRight, ShieldCheck, Lock, CheckCircle2, Zap } from "lucide-react";
 
@@ -11,21 +9,28 @@ export default function EDPage() {
 
   return (
     <main className="flex flex-col min-h-screen bg-black text-white">
-      <Navbar />
       
       {/* Hero Section */}
-      <section className="relative pt-40 pb-24 overflow-hidden">
-        <div className="absolute top-0 right-0 w-1/2 h-full bg-primary/10 blur-[120px] rounded-full translate-x-1/4 -z-10" />
+      <section className="relative pt-40 pb-24 overflow-hidden border-b border-white/5">
+        <div className="absolute inset-0 z-0">
+          <img 
+            src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/VSqlfyiMHv6EpHAvboBv/media/68226a917345a918f5c970c8.jpeg"
+            alt="Performance"
+            className="w-full h-full object-cover opacity-50 grayscale"
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-black via-black/80 to-transparent" />
+        </div>
+        
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="max-w-4xl animate-in fade-in slide-in-from-bottom-8 duration-1000">
             <div className="flex items-center gap-3 text-primary font-bold mb-6 text-sm tracking-[0.3em] uppercase">
               <Lock className="w-4 h-4" />
               <span>Discrete & Professional</span>
             </div>
-            <h1 className="text-5xl md:text-8xl font-serif font-black mb-8 leading-tight">
-              Reclaim Your <br /> <span className="text-gradient">Confidence.</span>
+            <h1 className="text-5xl md:text-8xl font-serif font-black mb-8 leading-tight italic tracking-tighter">
+              Reclaim Your <br /> <span className="text-primary">Confidence.</span>
             </h1>
-            <p className="text-xl text-gray-400 font-light leading-relaxed mb-12 max-w-2xl">
+            <p className="text-xl text-gray-300 font-light leading-relaxed mb-12 max-w-2xl">
               Performance shouldn&apos;t be a source of stress. Our discreet, medically supervised protocols involve pharmaceutical solutions and restorative therapies designed for lasting results.
             </p>
             <button
@@ -75,12 +80,12 @@ export default function EDPage() {
       <section className="py-24 relative">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
-            <div className="relative">
-              <div className="absolute inset-0 bg-primary/20 rounded-[3rem] blur-3xl" />
+            <div className="relative group">
+              <div className="absolute inset-0 bg-primary/20 rounded-[3rem] blur-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-700" />
               <img 
-                src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?q=80&w=2680&auto=format&fit=crop" 
+                src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/VSqlfyiMHv6EpHAvboBv/media/682b9ec7d1702b4be4387bb4.jpeg" 
                 alt="Medical Wellness" 
-                className="relative z-10 rounded-[3rem] border border-white/10 grayscale-[0.5] hover:grayscale-0 transition-all duration-700"
+                className="relative z-10 rounded-[3rem] border border-white/10 grayscale-[0.2] hover:grayscale-0 transition-all duration-700 shadow-2xl"
               />
             </div>
             <div>
@@ -134,6 +139,7 @@ export default function EDPage() {
           <div className="bg-white/5 rounded-[2rem] border border-white/10 overflow-hidden luxury-glass">
             <GHLFormEmbed 
               type="calendar"
+              embedUrl="https://app.gohighlevel.com/v2/preview/itrpsCuLeBfeQWoOjue6"
               isOpen={true}
               onClose={() => {}}
               isInline={true}
@@ -144,11 +150,10 @@ export default function EDPage() {
 
       <GHLFormEmbed 
         type="calendar"
+        embedUrl="https://app.gohighlevel.com/v2/preview/itrpsCuLeBfeQWoOjue6"
         isOpen={isModalOpen}
         onClose={() => setIsModalOpen(false)}
       />
-
-      <Footer />
     </main>
   );
 }

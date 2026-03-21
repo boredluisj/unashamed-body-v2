@@ -101,6 +101,7 @@ export default function MentalHealthPage() {
 
       <GHLFormEmbed 
         type="calendar"
+        embedUrl="https://app.gohighlevel.com/v2/preview/sb7VpA0YbsitEkGxie7h?notrack=true"
         isOpen={isBookingOpen}
         onClose={() => setIsBookingOpen(false)}
       />

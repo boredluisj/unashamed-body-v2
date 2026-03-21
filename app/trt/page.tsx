@@ -139,6 +139,7 @@ export default function TRTPage() {
 
       <GHLFormEmbed 
         type="calendar"
+        embedUrl="https://app.gohighlevel.com/v2/preview/qpFvStkXcBZ7Z6n2dKDg?notrack=true"
         isOpen={isBookingOpen}
         onClose={() => setIsBookingOpen(false)}
       />

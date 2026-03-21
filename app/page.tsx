@@ -2,8 +2,7 @@
 
 import { Hero } from "@/components/Hero";
 import { ServiceGrid } from "@/components/ServiceGrid";
-import { Navbar } from "@/components/Navbar";
-import { Footer } from "@/components/Footer";
+import { MapSection } from "@/components/MapSection";
 import { CookieBanner } from "@/components/CookieBanner";
 import { GHLFormEmbed } from "@/components/GHLFormEmbed";
 import { useState } from "react";
@@ -15,7 +14,6 @@ export default function Home() {
 
   return (
     <main className="min-h-screen bg-[#0A0A0F] text-[#F0EFFF] selection:bg-[#DC2626]/30">
-      <Navbar />
       <Hero />
       
       {/* Stats Band */}
@@ -84,7 +82,7 @@ export default function Home() {
                   "100% Custom protocols based on comprehensive labs",
                   "Transparent pricing. No hidden fees ever.",
                   "Zero wait times. Direct access to your doctor.",
-                  "1-on-1 care with Dr. Carpenter & Nurse Tifany",
+                  "1-on-1 care with Dr. Gearing & Nurse Mitchell",
                   "Optimize full biology: testosterone, peptides, nutrition"
                 ].map((item, i) => (
                   <li key={i} className="flex gap-4 items-start">
@@ -194,7 +192,6 @@ export default function Home() {
         </div>
       </section>
 
-      <Footer />
       <CookieBanner />
 
       <GHLFormEmbed 

@@ -53,7 +53,6 @@ export default function PricingPage() {
 
   return (
     <main className="flex flex-col min-h-screen bg-black text-white">
-      <Navbar />
       <div className="flex-grow pt-32 pb-20 px-4">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
@@ -180,11 +179,10 @@ export default function PricingPage() {
 
       <GHLFormEmbed
         type="calendar"
+        embedUrl={modalUrl}
         isOpen={isModalOpen}
         onClose={() => setIsModalOpen(false)}
       />
-
-      <Footer />
     </main>
   );
 }

@@ -145,6 +145,7 @@ export default function RoadWarriorPage() {
           <div className="bg-white/5 rounded-[2rem] border border-white/10 overflow-hidden luxury-glass shadow-2xl shadow-primary/5">
             <GHLFormEmbed 
               type="calendar"
+              embedUrl="https://api.leadconnectorhq.com/widget/booking/CYwBztutyvQCWJTfuZSr"
               isOpen={true}
               onClose={() => {}}
               isInline={true}
@@ -155,6 +156,7 @@ export default function RoadWarriorPage() {
 
       <GHLFormEmbed 
         type="calendar"
+        embedUrl="https://api.leadconnectorhq.com/widget/booking/CYwBztutyvQCWJTfuZSr"
         isOpen={isModalOpen}
         onClose={() => setIsModalOpen(false)}
       />

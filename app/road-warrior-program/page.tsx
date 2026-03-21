@@ -175,6 +175,7 @@ export default function RoadWarriorPage() {
 
       <GHLFormEmbed 
         type="calendar"
+        embedUrl="https://api.leadconnectorhq.com/widget/booking/CYwBztutyvQCWJTfuZSr"
         isOpen={isBookingOpen}
         onClose={() => setIsBookingOpen(false)}
       />

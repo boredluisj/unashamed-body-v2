@@ -139,6 +139,7 @@ export default function MedicalWeightLossPage() {
 
       <GHLFormEmbed 
         type="calendar"
+        embedUrl="https://app.gohighlevel.com/v2/preview/7sPEF9hASlDFio4Z3E6U"
         isOpen={isBookingOpen}
         onClose={() => setIsBookingOpen(false)}
       />

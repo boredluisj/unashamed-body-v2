@@ -167,6 +167,7 @@ export default function TadalafilPage() {
 
       <GHLFormEmbed 
         type="calendar"
+        embedUrl="https://app.gohighlevel.com/v2/preview/itrpsCuLeBfeQWoOjue6"
         isOpen={isBookingOpen}
         onClose={() => setIsBookingOpen(false)}
       />

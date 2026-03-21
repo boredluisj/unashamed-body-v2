@@ -38,12 +38,26 @@ export function Hero() {
         }
       `}} />
       
-      {/* Dark particle field */}
-      <div className="absolute inset-0 z-0 overflow-hidden">
+      {/* Background Media */}
+      <div className="absolute inset-0 z-0 h-full w-full overflow-hidden">
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          poster="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/VSqlfyiMHv6EpHAvboBv/media/6819f390035071dfb1ced878.jpeg"
+          className="h-full w-full object-cover scale-[1.02] filter brightness-[0.4] contrast-[1.1]"
+        >
+          <source src="https://storage.googleapis.com/msgsndr/VSqlfyiMHv6EpHAvboBv/media/68230f6a16cf721592980f74.mp4" type="video/mp4" />
+        </video>
+        {/* Aceternity-style Hero Highlight (subtle radial gradient overlay) */}
+        <div className="absolute inset-0 bg-[#0A0A0F]/60 [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)] z-10" />
+        
+        {/* Floating particles (keeping them for extra depth) */}
         {particles.map((p) => (
           <div
             key={p.id}
-            className="particle"
+            className="particle z-0"
             style={{
               width: p.size,
               height: p.size,
@@ -56,8 +70,6 @@ export function Hero() {
             }}
           />
         ))}
-        {/* Aceternity-style Hero Highlight (subtle radial gradient overlay) */}
-        <div className="absolute inset-0 bg-[#0A0A0F] [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)] z-10" />
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-20 text-center">

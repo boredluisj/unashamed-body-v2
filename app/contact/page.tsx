@@ -2,6 +2,7 @@
 
 import { PageHeader } from "@/components/PageHeader";
 import { Mail, MapPin, Phone, Clock, Send } from "lucide-react";
+import { GHLFormEmbed } from "@/components/GHLFormEmbed";
 
 export default function ContactPage() {
   return (
@@ -33,7 +34,7 @@ export default function ContactPage() {
                 <div>
                   <h3 className="text-white font-bold uppercase tracking-widest text-sm mb-2">Location</h3>
                   <p className="text-gray-400 font-light text-lg">
-                    920 Pavilion Court Suite 804B<br />McDonough, GA 30252
+                    804 Pavilion Court Suite B<br />McDonough, GA 30253
                   </p>
                 </div>
               </div>
@@ -76,82 +77,31 @@ export default function ContactPage() {
               </div>
             </div>
             
-            {/* Map Embed Placeholder / Link */}
+            {/* Map Embed */}
             <div className="pt-8">
-              <a 
-                href="https://www.google.com/maps/search/?api=1&query=920+Pavilion+Court+Suite+804B+McDonough+GA+30252" 
-                target="_blank" 
-                className="block relative aspect-video rounded-2xl overflow-hidden border border-white/10 group"
-              >
-                <div className="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity z-10 flex items-center justify-center backdrop-blur-sm">
-                  <span className="bg-white text-black px-6 py-2 rounded-full text-sm font-bold uppercase tracking-widest">Open in Google Maps</span>
-                </div>
-                <img 
-                  src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://firebasestorage.googleapis.com/v0/b/highlevel-backend.appspot.com/o/location%2FVSqlfyiMHv6EpHAvboBv%2Fimages%2FnvWn8vi9glfs6qR7jb1V%2FEjQ5MjAgUGF2aWxpb24gQ3Qgc3VpdGUgODA0YiwgTWNEb25vdWdoLCBHQSAzMDI1MywgVVNBIkEaPwoxEi8KFAoSCWUYNS7MW_SIEUpEan-n70TTEJgHKhQKEglz4fIxzFv0iBGwEXXurdMtSRIKc3VpdGUgODA0Yg%2Fmap-20YItqD5b8.jpg?alt=media" 
-                  alt="Location Map" 
-                  className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700"
-                />
-              </a>
+              <div className="relative aspect-video rounded-2xl overflow-hidden border border-white/10 group bg-white/5">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3329.6721410847!2d-84.1744153247533!3d33.43179105023771!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f45bcc31a5e26b%3A0xfdcc691248068276!2s804%20Pavilion%20Ct%20b%2C%20McDonough%2C%20GA%2030253%2C%20USA!5e0!3m2!1sde!2sde!4v1774099855114!5m2!1sde!2sde"
+                  width="100%"
+                  height="100%"
+                  style={{ border: 0 }}
+                  allowFullScreen={true}
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  className="grayscale hover:grayscale-0 transition-all duration-700"
+                ></iframe>
+              </div>
             </div>
           </div>
 
           {/* Contact Form */}
-          <div className="luxury-card p-8 md:p-12 rounded-3xl border-white/5 bg-white/[0.02]">
-            <h2 className="text-2xl font-sans font-thin text-white mb-10 uppercase tracking-tight">
-              Send a Message
-            </h2>
-            
-            <form className="space-y-6">
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div className="space-y-2">
-                  <label className="text-xs uppercase tracking-[0.2em] font-bold text-gray-500 ml-4">Full Name</label>
-                  <input 
-                    type="text" 
-                    placeholder="John Doe"
-                    className="w-full bg-white/5 border border-white/10 rounded-2xl px-6 py-4 text-white placeholder:text-gray-700 focus:outline-none focus:border-primary/50 transition-colors"
-                  />
-                </div>
-                <div className="space-y-2">
-                  <label className="text-xs uppercase tracking-[0.2em] font-bold text-gray-500 ml-4">Phone</label>
-                  <input 
-                    type="tel" 
-                    placeholder="(555) 000-0000"
-                    className="w-full bg-white/5 border border-white/10 rounded-2xl px-6 py-4 text-white placeholder:text-gray-700 focus:outline-none focus:border-primary/50 transition-colors"
-                  />
-                </div>
-              </div>
-              
-              <div className="space-y-2">
-                <label className="text-xs uppercase tracking-[0.2em] font-bold text-gray-500 ml-4">Email Address</label>
-                <input 
-                  type="email" 
-                  placeholder="john@example.com"
-                  className="w-full bg-white/5 border border-white/10 rounded-2xl px-6 py-4 text-white placeholder:text-gray-700 focus:outline-none focus:border-primary/50 transition-colors"
-                />
-              </div>
-
-              <div className="space-y-2">
-                <label className="text-xs uppercase tracking-[0.2em] font-bold text-gray-500 ml-4">How can we help?</label>
-                <textarea 
-                  rows={4}
-                  placeholder="Your message..."
-                  className="w-full bg-white/5 border border-white/10 rounded-2xl px-6 py-4 text-white placeholder:text-gray-700 focus:outline-none focus:border-primary/50 transition-colors resize-none"
-                />
-              </div>
-
-              <div className="pt-4 space-y-4">
-                <p className="text-[10px] text-gray-500 font-light leading-relaxed">
-                  By submitting this form, I consent to receive transactional and marketing messages related to services. Message frequency may vary. Reply STOP to opt-out.
-                </p>
-                <button 
-                  type="submit"
-                  className="w-full bg-primary hover:bg-primary-dark text-white py-5 rounded-2xl font-black text-sm uppercase tracking-[0.2em] transition-all hover:scale-[1.02] active:scale-[0.98] shadow-2xl shadow-primary/20 flex items-center justify-center gap-3 group"
-                >
-                  <span>Send Message</span>
-                  <Send className="w-4 h-4 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />
-                </button>
-              </div>
-            </form>
+          <div className="luxury-card p-0 rounded-3xl border-white/5 bg-white/[0.02] overflow-hidden">
+            <GHLFormEmbed 
+              type="form"
+              isInline={true}
+              isOpen={true}
+              onClose={() => {}}
+            />
           </div>
         </div>
       </section>

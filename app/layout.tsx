@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Inter, Sora } from "next/font/google";
 import "./globals.css";
+import { Navbar } from "@/components/Navbar";
+import { Footer } from "@/components/Footer";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -69,7 +71,9 @@ export default function RootLayout({
       className={`${inter.variable} ${sora.variable} h-full antialiased scroll-smooth`}
     >
       <body className="min-h-full flex flex-col font-sans selection:bg-[#DC2626]/30 bg-[#0A0A0F] text-[#F0EFFF]">
+        <Navbar />
         {children}
+        <Footer />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}

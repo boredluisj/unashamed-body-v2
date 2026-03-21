@@ -133,6 +133,7 @@ export default function MentalHealthPage() {
           <div className="bg-white/5 rounded-[2rem] border border-white/10 overflow-hidden luxury-glass shadow-2xl shadow-primary/5">
             <GHLFormEmbed 
               type="calendar"
+              embedUrl="https://app.gohighlevel.com/v2/preview/sb7VpA0YbsitEkGxie7h?notrack=true"
               isOpen={true}
               onClose={() => {}}
               isInline={true}

@@ -9,7 +9,9 @@ const SERVICES = [
     description: "Personalized Testosterone Replacement Therapy to restore energy, focus, and drive.",
     icon: Zap,
     href: "/trt",
-    accentColor: "#DC2626", // Red Primary
+    accentColor: "#DC2626",
+    imageUrl: "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/VSqlfyiMHv6EpHAvboBv/media/6819f390035071dfb1ced878.jpeg",
+    bookingUrl: "https://app.gohighlevel.com/v2/preview/qpFvStkXcBZ7Z6n2dKDg?notrack=true",
   },
   {
     title: "Weight Loss",
@@ -17,6 +19,8 @@ const SERVICES = [
     icon: Scale,
     href: "/mwl",
     accentColor: "#DC2626",
+    imageUrl: "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/VSqlfyiMHv6EpHAvboBv/media/6819f4d7b614b14dd734668b.jpeg",
+    bookingUrl: "https://app.gohighlevel.com/v2/preview/7sPEF9hASlDFio4Z3E6U",
   },
   {
     title: "Peptide Therapy",
@@ -24,6 +28,8 @@ const SERVICES = [
     icon: Activity,
     href: "/peptide-therapy",
     accentColor: "#DC2626",
+    imageUrl: "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/VSqlfyiMHv6EpHAvboBv/media/681bc70668230f6a27cf7201.jpeg",
+    bookingUrl: "https://app.gohighlevel.com/v2/preview/QJd9Fb7LQrsn4eyiqRNS?notrack=true",
   },
   {
     title: "ED Treatment",
@@ -31,6 +37,8 @@ const SERVICES = [
     icon: HeartPulse,
     href: "/tasalafil",
     accentColor: "#DC2626",
+    imageUrl: "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/VSqlfyiMHv6EpHAvboBv/media/6819f44f5351de0061e88863.jpeg",
+    bookingUrl: "https://app.gohighlevel.com/v2/preview/itrpsCuLeBfeQWoOjue6",
   },
   {
     title: "Road Warrior",
@@ -38,6 +46,8 @@ const SERVICES = [
     icon: Truck,
     href: "/road-warrior-program",
     accentColor: "#DC2626",
+    imageUrl: "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/VSqlfyiMHv6EpHAvboBv/media/6823101668230f2f5acf724c.jpeg",
+    bookingUrl: "https://api.leadconnectorhq.com/widget/booking/CYwBztutyvQCWJTfuZSr",
   },
   {
     title: "Unashamed Minds",
@@ -45,6 +55,8 @@ const SERVICES = [
     icon: Brain,
     href: "/mental-health-add-on",
     accentColor: "#DC2626",
+    imageUrl: "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/VSqlfyiMHv6EpHAvboBv/media/681bc7fac6118d7ef26aa1e6.jpeg",
+    bookingUrl: "https://app.gohighlevel.com/v2/preview/sb7VpA0YbsitEkGxie7h?notrack=true",
   },
 ];
 
@@ -66,7 +78,16 @@ export function ServiceGrid() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {SERVICES.map((service) => (
-            <ServiceCard key={service.title} {...service} />
+            <ServiceCard 
+              key={service.title}
+              title={service.title}
+              description={service.description}
+              icon={service.icon}
+              href={service.href}
+              accentColor={service.accentColor}
+              imageUrl={service.imageUrl}
+              bookingUrl={service.bookingUrl}
+            />
           ))}
         </div>
       </div>
