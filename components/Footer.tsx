@@ -22,10 +22,11 @@ export function Footer() {
                 className="flex items-center gap-4 group"
                 onClick={clickSound}
               >
-                <img 
-                  src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/VSqlfyiMHv6EpHAvboBv/media/6819f228b614b1667e34666b.jpeg" 
-                  alt="Unashamed Body" 
-                  className="h-16 w-auto object-contain transition-transform group-hover:scale-105"
+                <img
+                  src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/VSqlfyiMHv6EpHAvboBv/media/6819f228b614b1667e34666b.jpeg"
+                  alt="Unashamed Body"
+                  className="h-16 w-auto object-contain transition-transform group-hover:scale-105 mix-blend-screen"
+                  style={{ maskImage: 'radial-gradient(ellipse at center, black 55%, transparent 90%)', WebkitMaskImage: 'radial-gradient(ellipse at center, black 55%, transparent 90%)' }}
                 />
               </Link>
               <p className="text-gray-500 leading-relaxed font-light text-sm">

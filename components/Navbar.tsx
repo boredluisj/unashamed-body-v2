@@ -32,10 +32,11 @@ export function Navbar() {
               >
                 <div className="relative">
                   <div className="absolute inset-0 bg-primary/20 blur-xl rounded-full group-hover:bg-primary/40 transition-all" />
-                  <img 
-                    src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/VSqlfyiMHv6EpHAvboBv/media/6819f228b614b1667e34666b.jpeg" 
-                    alt="Unashamed Body" 
-                    className="h-16 w-auto object-contain transition-transform group-hover:scale-105 relative z-10"
+                  <img
+                    src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/VSqlfyiMHv6EpHAvboBv/media/6819f228b614b1667e34666b.jpeg"
+                    alt="Unashamed Body"
+                    className="h-16 w-auto object-contain transition-transform group-hover:scale-105 relative z-10 mix-blend-screen"
+                    style={{ maskImage: 'radial-gradient(ellipse at center, black 55%, transparent 90%)', WebkitMaskImage: 'radial-gradient(ellipse at center, black 55%, transparent 90%)' }}
                   />
                 </div>
               </Link>
