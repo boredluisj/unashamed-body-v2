@@ -1,7 +1,7 @@
 "use client";
 
 import { PageHeader } from "@/components/PageHeader";
-import { Truck, Video, Package, ClipboardCheck, AlertTriangle, Battery, Gauge, Download } from "lucide-react";
+import { Truck, Video, Package, ClipboardCheck, AlertTriangle, Battery, Gauge, Download, Calendar, CheckCircle2 } from "lucide-react";
 import { useState } from "react";
 import { GHLFormEmbed } from "@/components/GHLFormEmbed";
 
