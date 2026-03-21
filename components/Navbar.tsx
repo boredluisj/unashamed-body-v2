@@ -36,17 +36,10 @@ export function Navbar() {
                   <div className="absolute inset-0 bg-primary/20 blur-xl rounded-full group-hover:bg-primary/40 transition-all" />
                   <img 
                     src="/images/logo.png" 
-                    alt="Unashamed Body Logo" 
-                    className="h-10 w-auto object-contain transition-transform group-hover:scale-110 relative z-10"
-                    style={{ filter: "brightness(0) invert(1)" }}
+                    alt="Unashamed Body" 
+                    className="h-12 w-auto object-contain transition-transform group-hover:scale-105 relative z-10"
+                    style={{ mixBlendMode: 'lighten' }}
                   />
-                </div>
-                <div className="flex flex-col leading-none">
-                  <div className="flex items-baseline">
-                    <span className="text-3xl font-serif font-black tracking-tighter text-[#DC2626]">UNASHAMED</span>
-                    <span className="text-3xl font-serif font-black tracking-tighter text-white ml-1">BODY</span>
-                  </div>
-                  <span className="text-[10px] uppercase tracking-[0.5em] font-black text-white/40 mt-1">& WELLNESS GROUP</span>
                 </div>
               </Link>
             </div>

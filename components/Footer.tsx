@@ -24,16 +24,10 @@ export function Footer() {
               >
                 <img 
                   src="/images/logo.png" 
-                  alt="Unashamed Body Logo" 
-                  className="h-10 w-auto object-contain transition-transform group-hover:scale-110"
-                  style={{ filter: "brightness(0) invert(1)" }}
+                  alt="Unashamed Body" 
+                  className="h-12 w-auto object-contain transition-transform group-hover:scale-105"
+                  style={{ mixBlendMode: 'lighten' }}
                 />
-                <div className="flex flex-col leading-none">
-                  <div className="flex items-baseline">
-                    <span className="text-2xl font-serif font-black tracking-tighter text-[#DC2626]">UNASHAMED</span>
-                    <span className="text-2xl font-serif font-black tracking-tighter text-white ml-1">BODY</span>
-                  </div>
-                </div>
               </Link>
               <p className="text-gray-500 leading-relaxed font-light text-sm">
                 McDonough&apos;s premier concierge medical clinic. We help high-performing men reclaim their vitality through evidence-based protocols and luxury medical supervision.
