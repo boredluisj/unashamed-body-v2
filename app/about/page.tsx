@@ -1,121 +1,126 @@
 "use client";
 
-import { useState } from "react";
-import { Star, ChevronRight, Shield, Award, Users } from "lucide-react";
-import Link from "next/link";
-import { Navbar } from "@/components/Navbar";
-import { Footer } from "@/components/Footer";
-import { GHLFormEmbed } from "@/components/GHLFormEmbed";
+import { PageHeader } from "@/components/PageHeader";
+import { ShieldCheck, Stethoscope, Video } from "lucide-react";
 
-export default function About() {
-  const [isModalOpen, setIsModalOpen] = useState(false);
-
+export default function AboutPage() {
   return (
-    <main className="min-h-screen bg-black text-white">
-      <Navbar />
-      
-      {/* Hero Section */}
-      <section className="relative pt-40 pb-32 overflow-hidden">
-        <div className="absolute top-0 right-0 w-1/2 h-full bg-primary/5 blur-[120px] rounded-full -z-10 animate-pulse-slow" />
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-4xl animate-in fade-in slide-in-from-left-12 duration-1000">
-            <span className="text-primary font-bold tracking-[0.4em] uppercase text-xs mb-8 block">Our Mission</span>
-            <h1 className="text-6xl md:text-9xl font-serif font-black mb-12 leading-none italic">
-              Redefining the <br />
-              <span className="text-gradient">Standard of Care.</span>
-            </h1>
-            <div className="prose prose-xl prose-invert text-gray-400 font-light space-y-8 max-w-2xl">
-              <p className="leading-relaxed">
-                Unashamed Body isn&apos;t just a clinic. We are a concierge performance center dedicated to hormone optimization, metabolic health, and peak human performance.
-              </p>
-              <p className="leading-relaxed border-l-2 border-primary/30 pl-8 italic">
-                &quot;We don&apos;t treat papers. We treat people. If your labs are &apos;normal&apos; but you feel like a shadow of yourself, we have a problem.&quot;
-              </p>
-            </div>
+    <main className="min-h-screen bg-black">
+      <PageHeader 
+        title="About Us" 
+        description="We won't stop until you're feeling better than you have in years. Guiding you on your journey to renewed strength, confidence, and vitality."
+      />
 
-            <div className="mt-16 flex flex-wrap gap-6">
-              <button 
-                onClick={() => setIsModalOpen(true)}
-                className="px-12 py-6 bg-primary text-black font-black rounded-2xl hover:bg-orange-600 transition-all shadow-2xl hover:scale-105 active:scale-95 flex items-center gap-3 group"
-              >
-                JOIN THE MOVEMENT <ChevronRight className="w-5 h-5 group-hover:translate-x-1" />
-              </button>
+      {/* Team Section */}
+      <section className="py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+        <h2 className="text-3xl md:text-5xl font-sans font-thin text-white mb-20 text-center tracking-tight uppercase">
+          Meet The Team
+        </h2>
+
+        <div className="space-y-32">
+          {/* Profile 1: Monique */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            <div className="relative aspect-[4/5] rounded-2xl overflow-hidden group">
+              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent z-10" />
+              <img 
+                src="https://assets.cdn.filesafe.space/VSqlfyiMHv6EpHAvboBv/media/68209d6875a08ec302e3e7cd.jpeg"
+                alt="Monique Mitchell"
+                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+              />
+            </div>
+            <div className="space-y-8">
+              <div>
+                <h3 className="text-primary/80 uppercase tracking-[0.2em] text-sm font-bold mb-4">Board Certified Nurse Practitioner, Founder & CEO</h3>
+                <h4 className="text-4xl md:text-5xl font-serif font-light text-white italic">Monique Mitchell</h4>
+              </div>
+              <div className="space-y-6 text-gray-400 font-light leading-relaxed">
+                <p>
+                  Welcome to Unashamed Body & Wellness Group! My name is Monique Mitchell, and I am dedicated to helping men reclaim their vitality, confidence, and overall quality of life. With over 12 years of experience in healthcare—spanning emergency medicine, primary care, urgent care, and cardiology—I've seen firsthand how low testosterone and related health issues can significantly impact a man's well-being.
+                </p>
+                <p>
+                  Throughout my career, I worked with many men facing challenges like decreased energy, diminished libido, and weight struggles. However, I often found myself limited by corporate policies that prevented me from providing the personalized care these men truly needed. That realization fueled my passion to make a difference on my own terms.
+                </p>
+                <p>
+                  In response, I founded Unashamed Body & Wellness Group—an environment where men can access safe, effective, and customized treatments including testosterone replacement therapy, erectile dysfunction solutions, peptide therapy, and weight management.
+                </p>
+                <p>
+                  My mission is simple: to make every man who walks through my doors a sharper, stronger, and better version of himself. I am committed to your health, your confidence, and your future. Let's work together to unlock your full potential.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* Profile 2: Dr. Gearing */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center lg:flex-row-reverse">
+            <div className="order-2 lg:order-1 space-y-8">
+              <div>
+                <h3 className="text-primary/80 uppercase tracking-[0.2em] text-sm font-bold mb-4">Medical Director</h3>
+                <h4 className="text-4xl md:text-5xl font-serif font-light text-white italic">Dr. Bobby Gearing, MD</h4>
+              </div>
+              <div className="space-y-6 text-gray-400 font-light leading-relaxed">
+                <p>
+                  Hey Guys, and welcome to our Men's Health driven clinic! Originally from Rochester, NY, I am excited to now serve the Atlanta community with a dedicated focus on men's health and wellness. I graduated from Ross University School of Medicine in 2008 and completed my residency and chief residency at the State University of New York Downstate Medical Center in 2012.
+                </p>
+                <p>
+                  Over the past 10 years, I have gained extensive hands-on experience in hormone replacement therapy and weight loss solutions, helping men regain their vitality and improve their quality of life. I recognize the unique needs of men when it comes to hormonal health and am passionate about providing personalized, effective treatment options—especially testosterone replacement therapy—that help men feel their best again.
+                </p>
+                <p>
+                  At Unashamed Body & Wellness Group, we are committed to breaking down stigmas around men's health and empowering our patients to achieve optimal wellness without shame or hesitation.
+                </p>
+              </div>
+            </div>
+            <div className="order-1 lg:order-2 relative aspect-[4/5] rounded-2xl overflow-hidden group">
+              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent z-10" />
+              <img 
+                src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/VSqlfyiMHv6EpHAvboBv/media/6820a4573cb6ae880666f1fb.jpeg"
+                alt="Dr. Bobby Gearing"
+                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+              />
             </div>
           </div>
         </div>
       </section>
 
-      {/* Philosophy Grid */}
-      <section className="py-32 bg-white/5 border-y border-white/5 relative overflow-hidden">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+      {/* Values Section */}
+      <section className="py-24 border-t border-white/5 relative bg-black/50">
+        <div className="absolute inset-0 bg-[url('/noise.png')] opacity-20 mix-blend-overlay" />
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-sans font-thin tracking-widest uppercase text-white mb-6">
+              Committed To Your Well-Being
+            </h2>
+            <div className="h-[1px] w-24 bg-gradient-to-r from-transparent via-primary/50 to-transparent mx-auto" />
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
             {[
-              { 
-                icon: Shield,
-                title: "Concierge Privacy", 
-                text: "Direct access to providers and total discretion in an elite clinical environment designed for high-performers." 
+              {
+                title: "Science-Based & Personalized",
+                description: "We never rely on templates or trends—your treatment plan is tailored specifically to your unique physiology.",
+                icon: Stethoscope
               },
-              { 
-                icon: Award,
-                title: "Evidence-Based", 
-                text: "We rely on the latest peer-reviewed longevity science and clinical data to deliver safe, effective, life-changing results." 
+              {
+                title: "In-Clinic or Telehealth",
+                description: "Experience the same level of high-touch concierge care whether you visit us physically or connect virtually.",
+                icon: Video
               },
-              { 
-                icon: Users,
-                title: "Patient-First", 
-                text: "No cookie-cutter protocols. Every optimization plan is uniquely designed for your biomarkers and specific life goals." 
+              {
+                title: "100% HIPAA-Compliant",
+                description: "Secure medical forms, encrypted telehealth portals, and private digital access to your treatment team.",
+                icon: ShieldCheck
               }
-            ].map((item, i) => (
-              <div key={i} className="group p-12 rounded-[3rem] bg-black border border-white/5 hover:border-primary/30 transition-all duration-500 backdrop-blur-xl">
-                <div className="w-16 h-16 bg-primary/10 rounded-2xl flex items-center justify-center text-primary mb-10 group-hover:bg-primary group-hover:text-black transition-all">
-                  <item.icon size={32} />
+            ].map((value, i) => (
+              <div key={i} className="luxury-card p-8 text-center group">
+                <div className="w-16 h-16 mx-auto rounded-full bg-white/5 flex items-center justify-center mb-6 group-hover:bg-primary/20 transition-colors border border-white/10 group-hover:border-primary/50">
+                  <value.icon className="w-8 h-8 text-white group-hover:text-primary transition-colors" />
                 </div>
-                <h3 className="text-2xl font-serif font-bold text-white mb-6 italic tracking-wide">{item.title}</h3>
-                <p className="text-gray-500 font-light leading-relaxed mb-8">{item.text}</p>
-                <div className="w-12 h-1 bg-white/10 group-hover:w-full group-hover:bg-primary transition-all duration-700" />
+                <h3 className="text-lg font-bold text-white uppercase tracking-wider mb-4">{value.title}</h3>
+                <p className="text-gray-400 font-light leading-relaxed">{value.description}</p>
               </div>
             ))}
           </div>
         </div>
       </section>
-
-      {/* The Difference */}
-      <section className="py-32 bg-black relative">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-24 items-center">
-            <div className="relative">
-              <div className="absolute inset-4 border border-primary/30 rounded-[3rem] -z-10" />
-              <img 
-                src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?q=80&w=2670&auto=format&fit=crop" 
-                alt="Medical Excellence" 
-                className="rounded-[3rem] grayscale-[0.2] hover:grayscale-0 transition-all duration-700 shadow-2xl translate-x-4 -translate-y-4"
-              />
-            </div>
-            <div className="space-y-10">
-              <h2 className="text-4xl md:text-6xl font-serif font-black italic text-gradient leading-tight">The Unashamed <br /> Difference.</h2>
-              <p className="text-xl text-gray-400 font-light leading-relaxed">
-                Located in the heart of McDonough, we are more than just a clinic. We are a concierge performance center. We understand that aging is a biological process that we can influence.
-              </p>
-              <ul className="space-y-6">
-                {["Elite Diagnostic Testing", "Direct Provider Communication", "Custom Compound Medications", "Continuous Health Optimization"].map((feature, i) => (
-                  <li key={i} className="flex items-center gap-4 text-white font-bold group">
-                    <div className="w-2 h-2 rounded-full bg-primary group-hover:scale-150 transition-all" />
-                    <span className="font-serif italic text-lg tracking-wide">{feature}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <GHLFormEmbed 
-        type="calendar"
-        isOpen={isModalOpen}
-        onClose={() => setIsModalOpen(false)}
-      />
-
-      <Footer />
     </main>
   );
 }

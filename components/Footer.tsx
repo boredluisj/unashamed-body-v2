@@ -56,13 +56,13 @@ export function Footer() {
               <h4 className="text-xs uppercase tracking-[0.3em] font-black text-primary/60">Services</h4>
               <ul className="space-y-4">
                 {[
-                  { name: "Services", href: "/services" },
-                  { name: "TRT Therapy", href: "/services/trt" },
-                  { name: "Weight Loss", href: "/services/weight-loss" },
-                  { name: "Peptide Therapy", href: "/services/peptide-therapy" },
-                  { name: "ED Treatment", href: "/services/ed" },
-                  { name: "Road Warrior", href: "/services/road-warrior" },
-                  { name: "Mental Health", href: "/services/mental-health" },
+                  { name: "Treatments", href: "/treatments" },
+                  { name: "TRT Therapy", href: "/trt" },
+                  { name: "Weight Loss", href: "/mwl" },
+                  { name: "Peptide Therapy", href: "/peptide-therapy" },
+                  { name: "ED Treatment", href: "/tasalafil" },
+                  { name: "Road Warrior", href: "/road-warrior-program" },
+                  { name: "Mental Health", href: "/mental-health-add-on" },
                 ].map((link) => (
                   <li key={link.name}>
                     <Link
@@ -115,8 +115,9 @@ export function Footer() {
 
           <div className="pt-12 border-t border-white/5 text-center text-gray-600 text-[10px] font-medium tracking-tight space-y-6 max-w-3xl mx-auto">
             <div className="flex flex-wrap justify-center gap-6 uppercase tracking-[0.2em] mb-4">
-              <Link href="/privacy-policy" className="hover:text-[#DC2626] transition-colors">Privacy Policy</Link>
-              <Link href="/terms-of-service" className="hover:text-[#DC2626] transition-colors">Terms of Service</Link>
+              <Link href="/privacy-1" className="hover:text-[#DC2626] transition-colors">Privacy Policy</Link>
+              <Link href="/tos" className="hover:text-[#DC2626] transition-colors">Terms of Service</Link>
+              <Link href="/refund" className="hover:text-[#DC2626] transition-colors">Refund Policy</Link>
             </div>
             <p className="uppercase tracking-[0.2em]">© {new Date().getFullYear()} Unashamed Body & Wellness. ALL RIGHTS RESERVED.</p>
             <p className="leading-relaxed opacity-50">

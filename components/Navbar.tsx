@@ -8,11 +8,9 @@ import { cn } from "@/utils/cn";
 import { GHLFormEmbed } from "@/components/GHLFormEmbed";
 
 const NAV_LINKS = [
-  { name: "Services", href: "/services" },
-  { name: "Telehealth", href: "/telehealth" },
+  { name: "Treatments", href: "/treatments" },
+  { name: "Pricing", href: "/Pricing" },
   { name: "About", href: "/about" },
-  { name: "FAQ", href: "/faq" },
-  { name: "Blog", href: "/blog" },
   { name: "Contact", href: "/contact" },
 ];
 
