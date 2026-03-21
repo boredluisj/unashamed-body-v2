@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", var(--font-inter), var(--font-geist-sans), ui-sans-serif, system-ui;
+  --font-serif: "Sora", var(--font-sora), ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  
+  --color-primary: #DC2626; /* red-600 */
+  --color-primary-dark: #B91C1C; /* red-700 */
+  --color-primary-light: #FEE2E2; /* red-100 */
+  
+  --color-void: #0A0A0F; /* hero bg */
+  --color-deep: #0D0D15; /* stats band bg */
+  --color-card: #111118; /* card backgrounds */
+  --color-border-subtle: #1E1E28; /* subtle borders */
+  
+  --color-neutral-white: #F0EFFF; /* cool white */
+  --color-neutral-text: #9CA3AF; /* gray-400 */
+  --color-neutral-muted: #6B7280; /* gray-500 */
+  
+  --animate-subtle-float: float 6s ease-in-out infinite;
+
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+  }
+}
+
+:root {
+  --background: #0A0A0F;
+  --foreground: #F0EFFF;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  @apply antialiased;
+}
+
+.luxury-glass {
+  @apply backdrop-blur-3xl bg-[#0A0A0F]/95 border-b border-[#1E1E28];
+}
+
+.text-gradient {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-[#DC2626] to-[#B91C1C];
+}
+
+.luxury-card {
+  @apply bg-[#111118] border border-[#1E1E28] hover:border-[#DC2626]/50 hover:shadow-[0_0_30px_rgba(220,38,38,0.1)] transition-all duration-300;
+}
