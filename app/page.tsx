@@ -129,47 +129,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Providers Section */}
-      <section className="py-24 bg-[#0A0A0F] border-t border-[#1E1E28]">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-serif font-black mb-4">
-              Meet Your <span className="text-[#DC2626] italic">Experts</span>
-            </h2>
-            <p className="text-[#9CA3AF] font-light text-xl">
-              Decades of experience. Zero compromises.
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-2 gap-12 max-w-5xl mx-auto">
-            <div className="luxury-card rounded-3xl overflow-hidden group">
-              <div className="h-80 bg-gray-800 relative bg-[url('https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?q=80&w=2670&auto=format&fit=crop')] bg-cover bg-center grayscale group-hover:grayscale-0 transition-all duration-700">
-                <div className="absolute inset-0 bg-gradient-to-t from-[#0A0A0F] to-transparent shrink-0" />
-              </div>
-              <div className="p-8 relative z-10 -mt-20">
-                <h3 className="text-3xl font-serif font-bold mb-2">Dr. Anne Carpenter</h3>
-                <p className="text-[#DC2626] font-semibold tracking-wide uppercase text-sm mb-6">Medical Director & Co-Founder</p>
-                <p className="text-[#9CA3AF] font-light line-clamp-4 group-hover:line-clamp-none transition-all duration-500">
-                  Board Certified in Internal Medicine. She brings decades of elite medical experience to McDonough, leading our protocols with precision.
-                </p>
-              </div>
-            </div>
-
-            <div className="luxury-card rounded-3xl overflow-hidden group">
-              <div className="h-80 bg-gray-800 relative bg-[url('https://images.unsplash.com/photo-1559839734-2b71ea197ec2?q=80&w=2670&auto=format&fit=crop')] bg-cover bg-center grayscale group-hover:grayscale-0 transition-all duration-700">
-                 <div className="absolute inset-0 bg-gradient-to-t from-[#0A0A0F] to-transparent shrink-0" />
-              </div>
-              <div className="p-8 relative z-10 -mt-20">
-                <h3 className="text-3xl font-serif font-bold mb-2">NP Tifany</h3>
-                <p className="text-[#DC2626] font-semibold tracking-wide uppercase text-sm mb-6">Lead Nurse Practitioner</p>
-                <p className="text-[#9CA3AF] font-light line-clamp-4 group-hover:line-clamp-none transition-all duration-500">
-                  Leading the charge on patient transformations. Tifany is the architect behind our custom peptide and weight loss protocols.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* Trust / Testimonials Section */}
       <section className="py-32 bg-[#0D0D15] relative overflow-hidden">
