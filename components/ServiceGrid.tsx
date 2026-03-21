@@ -10,7 +10,7 @@ const SERVICES = [
     icon: Zap,
     href: "/trt",
     accentColor: "#DC2626",
-    imageUrl: "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/VSqlfyiMHv6EpHAvboBv/media/6819f390035071dfb1ced878.jpeg",
+    imageUrl: "/images/services/trt-therapy.jpg",
     bookingUrl: "https://app.gohighlevel.com/v2/preview/qpFvStkXcBZ7Z6n2dKDg?notrack=true",
   },
   {
@@ -19,7 +19,7 @@ const SERVICES = [
     icon: Scale,
     href: "/mwl",
     accentColor: "#DC2626",
-    imageUrl: "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/VSqlfyiMHv6EpHAvboBv/media/6819f4d7b614b14dd734668b.jpeg",
+    imageUrl: "/images/services/weight-loss.jpg",
     bookingUrl: "https://app.gohighlevel.com/v2/preview/7sPEF9hASlDFio4Z3E6U",
   },
   {
@@ -28,7 +28,7 @@ const SERVICES = [
     icon: Activity,
     href: "/peptide-therapy",
     accentColor: "#DC2626",
-    imageUrl: "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/VSqlfyiMHv6EpHAvboBv/media/681bc70668230f6a27cf7201.jpeg",
+    imageUrl: "/images/services/peptide-therapy.jpg",
     bookingUrl: "https://app.gohighlevel.com/v2/preview/QJd9Fb7LQrsn4eyiqRNS?notrack=true",
   },
   {
@@ -37,7 +37,7 @@ const SERVICES = [
     icon: HeartPulse,
     href: "/tasalafil",
     accentColor: "#DC2626",
-    imageUrl: "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/VSqlfyiMHv6EpHAvboBv/media/6819f44f5351de0061e88863.jpeg",
+    imageUrl: "/images/services/ed-treatment.jpg",
     bookingUrl: "https://app.gohighlevel.com/v2/preview/itrpsCuLeBfeQWoOjue6",
   },
   {
@@ -46,7 +46,7 @@ const SERVICES = [
     icon: Truck,
     href: "/road-warrior-program",
     accentColor: "#DC2626",
-    imageUrl: "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/VSqlfyiMHv6EpHAvboBv/media/6823101668230f2f5acf724c.jpeg",
+    imageUrl: "/images/services/road-warrior.jpg",
     bookingUrl: "https://api.leadconnectorhq.com/widget/booking/CYwBztutyvQCWJTfuZSr",
   },
   {
@@ -55,7 +55,7 @@ const SERVICES = [
     icon: Brain,
     href: "/mental-health-add-on",
     accentColor: "#DC2626",
-    imageUrl: "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/VSqlfyiMHv6EpHAvboBv/media/681bc7fac6118d7ef26aa1e6.jpeg",
+    imageUrl: "/images/services/unashamed-minds.jpg",
     bookingUrl: "https://app.gohighlevel.com/v2/preview/sb7VpA0YbsitEkGxie7h?notrack=true",
   },
 ];
