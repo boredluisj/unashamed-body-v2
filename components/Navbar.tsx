@@ -10,6 +10,7 @@ import { GHLFormEmbed } from "@/components/GHLFormEmbed";
 const NAV_LINKS = [
   { name: "Treatments", href: "/treatments" },
   { name: "Pricing", href: "/pricing" },
+  { name: "Blog", href: "/blog" },
   { name: "About", href: "/about" },
   { name: "Contact", href: "/contact" },
 ];

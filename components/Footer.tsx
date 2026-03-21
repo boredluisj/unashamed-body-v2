@@ -100,6 +100,24 @@ export function Footer() {
                   </li>
                 ))}
               </ul>
+              <h4 className="text-xs uppercase tracking-[0.3em] font-black text-primary/60 pt-4">Resources</h4>
+              <ul className="space-y-4">
+                {[
+                  { name: "Blog", href: "/blog" },
+                  { name: "FAQ", href: "/faq" },
+                  { name: "Pricing", href: "/pricing" },
+                  { name: "About", href: "/about" },
+                ].map((link) => (
+                  <li key={link.name}>
+                    <Link
+                      href={link.href}
+                      className="text-gray-400 hover:text-[#DC2626] transition-all flex items-center gap-3 text-sm font-medium"
+                    >
+                      {link.name}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
             </div>
 
             {/* Practice Info */}

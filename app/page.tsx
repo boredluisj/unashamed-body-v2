@@ -2,12 +2,11 @@
 
 import { Hero } from "@/components/Hero";
 import { ServiceGrid } from "@/components/ServiceGrid";
-import { MapSection } from "@/components/MapSection";
 import { CookieBanner } from "@/components/CookieBanner";
 import { GHLFormEmbed } from "@/components/GHLFormEmbed";
 import { useState } from "react";
 import Link from "next/link";
-import { ChevronRight, Star, CheckCircle2, XCircle } from "lucide-react";
+import { Star, CheckCircle2, XCircle, ArrowRight, Clock } from "lucide-react";
 
 export default function Home() {
   const [isBookingOpen, setIsBookingOpen] = useState(false);
@@ -161,6 +160,134 @@ export default function Home() {
           </div>
         </div>
         <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-full h-px bg-gradient-to-r from-transparent via-white/10 to-transparent" />
+      </section>
+
+      {/* Blog Preview */}
+      <section className="py-24 bg-[#0A0A0F] relative">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex items-end justify-between mb-14 flex-wrap gap-4">
+            <div>
+              <h2 className="text-4xl md:text-5xl font-serif font-black mb-3">
+                From The <span className="text-[#DC2626] italic">Blog</span>
+              </h2>
+              <p className="text-[#9CA3AF] font-light text-lg">Evidence-based insights from our clinical team.</p>
+            </div>
+            <Link href="/blog" className="flex items-center gap-2 text-sm uppercase tracking-widest font-black text-[#DC2626] hover:text-[#F0EFFF] transition-colors">
+              All Posts <ArrowRight className="w-4 h-4" aria-hidden="true" />
+            </Link>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {[
+              {
+                slug: "/blog/low-testosterone-signs",
+                tag: "TRT",
+                title: "What Is Low Testosterone? 7 Signs You Shouldn't Ignore",
+                excerpt: "Low T doesn't always look like you'd expect. Fatigue, brain fog, and mood changes compound with age.",
+                date: "Jan 15, 2025",
+                readTime: "5 min",
+              },
+              {
+                slug: "/blog/trt-vs-testosterone-boosters",
+                tag: "TRT",
+                title: "TRT vs. Natural Testosterone Boosters: What Actually Works",
+                excerpt: "Over-the-counter T boosters are a $5B industry. Here's what the research actually shows.",
+                date: "Jan 20, 2025",
+                readTime: "5 min",
+              },
+              {
+                slug: "/blog/erectile-dysfunction-40s",
+                tag: "ED Treatment",
+                title: "Erectile Dysfunction at 40: It's More Common Than You Think",
+                excerpt: "ED in your 40s isn't inevitable — it's a medical condition with identifiable causes and effective treatments.",
+                date: "Jan 25, 2025",
+                readTime: "5 min",
+              },
+            ].map((post) => (
+              <Link
+                key={post.slug}
+                href={post.slug}
+                className="group flex flex-col border border-[#1E1E28] rounded-2xl overflow-hidden hover:border-[#DC2626]/30 transition-all duration-300 bg-[#111118]/60 hover:bg-[#111118]"
+              >
+                <div className="px-6 pt-6 flex items-center justify-between">
+                  <span className="text-[10px] uppercase tracking-[0.2em] font-black text-[#DC2626]/80 bg-[#DC2626]/10 px-3 py-1 rounded-full">
+                    {post.tag}
+                  </span>
+                  <span className="flex items-center gap-1 text-[#6B7280] text-xs">
+                    <Clock className="w-3 h-3" aria-hidden="true" />{post.readTime}
+                  </span>
+                </div>
+                <div className="flex flex-col flex-1 p-6">
+                  <h3 className="text-base font-serif font-bold text-[#F0EFFF] mb-3 leading-snug group-hover:text-[#DC2626] transition-colors">
+                    {post.title}
+                  </h3>
+                  <p className="text-[#6B7280] text-sm font-light leading-relaxed flex-1">{post.excerpt}</p>
+                </div>
+                <div className="px-6 pb-5 flex items-center justify-between border-t border-[#1E1E28] pt-4">
+                  <span className="text-[#6B7280] text-xs">{post.date}</span>
+                  <span className="flex items-center gap-1 text-[#DC2626] text-xs font-semibold group-hover:gap-2 transition-all">
+                    Read <ArrowRight className="w-3 h-3" aria-hidden="true" />
+                  </span>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ Preview */}
+      <section className="py-24 bg-[#0D0D15] relative">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-14">
+            <h2 className="text-4xl md:text-5xl font-serif font-black mb-4">
+              Common <span className="text-[#DC2626] italic">Questions</span>
+            </h2>
+            <p className="text-[#9CA3AF] font-light text-xl">Straight answers to what men ask most.</p>
+          </div>
+
+          <div className="space-y-3 mb-12">
+            {[
+              {
+                q: "What happens at my first appointment?",
+                a: "A comprehensive consultation + 40+ biomarker lab panel at LabCorp. Results and a custom treatment plan delivered within 2 business days.",
+              },
+              {
+                q: "Do you accept insurance?",
+                a: "We're cash-pay by design — it removes restrictions so we can prescribe what's actually optimal for you. HSA/FSA cards are accepted.",
+              },
+              {
+                q: "Can everything be done via telehealth?",
+                a: "Yes. Consultations, follow-ups, and prescription management are all available remotely. You only visit LabCorp for your blood draw.",
+              },
+              {
+                q: "How long before I see results from TRT?",
+                a: "Most patients notice improvements in energy and mood within 2–4 weeks. Libido improves by weeks 4–6. Body composition changes over 3–6 months.",
+              },
+            ].map((item, i) => (
+              <details
+                key={i}
+                className="group border border-[#1E1E28] rounded-2xl overflow-hidden bg-[#111118]/40 hover:border-[#DC2626]/20 transition-colors"
+              >
+                <summary className="flex items-center justify-between gap-4 p-6 cursor-pointer list-none">
+                  <span className="text-base font-semibold text-[#F0EFFF]">{item.q}</span>
+                  <span className="shrink-0 w-6 h-6 rounded-full border border-white/20 flex items-center justify-center text-[#DC2626] group-open:rotate-45 transition-transform text-lg font-light">+</span>
+                </summary>
+                <div className="px-6 pb-6">
+                  <p className="text-[#9CA3AF] font-light leading-relaxed text-sm">{item.a}</p>
+                </div>
+              </details>
+            ))}
+          </div>
+
+          <div className="text-center">
+            <Link
+              href="/faq"
+              className="inline-flex items-center gap-2 border border-[#DC2626]/30 text-[#DC2626] hover:bg-[#DC2626]/10 px-8 py-3.5 rounded-full text-sm font-semibold uppercase tracking-widest transition-all hover:scale-105"
+            >
+              View All FAQs <ArrowRight className="w-4 h-4" aria-hidden="true" />
+            </Link>
+          </div>
+        </div>
       </section>
 
       {/* Final CTA */}

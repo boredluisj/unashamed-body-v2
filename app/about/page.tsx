@@ -72,7 +72,7 @@ export default function AboutPage() {
             <div className="order-1 lg:order-2 relative aspect-[4/5] rounded-2xl overflow-hidden group">
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent z-10" />
               <img 
-                src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/VSqlfyiMHv6EpHAvboBv/media/6820a4573cb6ae880666f1fb.jpeg"
+                src="https://assets.cdn.filesafe.space/VSqlfyiMHv6EpHAvboBv/media/6820a4573cb6ae880666f1fb.jpeg"
                 alt="Dr. Bobby Gearing"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
               />
