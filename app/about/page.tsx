@@ -22,10 +22,12 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div className="relative aspect-[4/5] rounded-2xl overflow-hidden group">
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent z-10" />
-              <img 
+              <img
                 src="https://assets.cdn.filesafe.space/VSqlfyiMHv6EpHAvboBv/media/68209d6875a08ec302e3e7cd.jpeg"
                 alt="Monique Mitchell"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                loading="lazy"
+                decoding="async"
               />
             </div>
             <div className="space-y-8">
@@ -35,13 +37,13 @@ export default function AboutPage() {
               </div>
               <div className="space-y-6 text-gray-400 font-light leading-relaxed">
                 <p>
-                  Welcome to Unashamed Body & Wellness Group! My name is Monique Mitchell, and I am dedicated to helping men reclaim their vitality, confidence, and overall quality of life. With over 12 years of experience in healthcare—spanning emergency medicine, primary care, urgent care, and cardiology—I've seen firsthand how low testosterone and related health issues can significantly impact a man's well-being.
+                  Welcome to Unashamed Body & Wellness Group! My name is Monique Mitchell, and I am dedicated to helping men reclaim their vitality, confidence, and overall quality of life. With over 12 years of experience in healthcare spanning emergency medicine, primary care, urgent care, and cardiology, I've seen firsthand how low testosterone and related health issues can significantly impact a man's well-being.
                 </p>
                 <p>
                   Throughout my career, I worked with many men facing challenges like decreased energy, diminished libido, and weight struggles. However, I often found myself limited by corporate policies that prevented me from providing the personalized care these men truly needed. That realization fueled my passion to make a difference on my own terms.
                 </p>
                 <p>
-                  In response, I founded Unashamed Body & Wellness Group—an environment where men can access safe, effective, and customized treatments including testosterone replacement therapy, erectile dysfunction solutions, peptide therapy, and weight management.
+                  In response, I founded Unashamed Body & Wellness Group, an environment where men can access safe, effective, and customized treatments including testosterone replacement therapy, erectile dysfunction solutions, peptide therapy, and weight management.
                 </p>
                 <p>
                   My mission is simple: to make every man who walks through my doors a sharper, stronger, and better version of himself. I am committed to your health, your confidence, and your future. Let's work together to unlock your full potential.
@@ -62,7 +64,7 @@ export default function AboutPage() {
                   Hey Guys, and welcome to our Men's Health driven clinic! Originally from Rochester, NY, I am excited to now serve the Atlanta community with a dedicated focus on men's health and wellness. I graduated from Ross University School of Medicine in 2008 and completed my residency and chief residency at the State University of New York Downstate Medical Center in 2012.
                 </p>
                 <p>
-                  Over the past 10 years, I have gained extensive hands-on experience in hormone replacement therapy and weight loss solutions, helping men regain their vitality and improve their quality of life. I recognize the unique needs of men when it comes to hormonal health and am passionate about providing personalized, effective treatment options—especially testosterone replacement therapy—that help men feel their best again.
+                  Over the past 10 years, I have gained extensive hands-on experience in hormone replacement therapy and weight loss solutions, helping men regain their vitality and improve their quality of life. I recognize the unique needs of men when it comes to hormonal health and am passionate about providing personalized, effective treatment options (especially testosterone replacement therapy) that help men feel their best again.
                 </p>
                 <p>
                   At Unashamed Body & Wellness Group, we are committed to breaking down stigmas around men's health and empowering our patients to achieve optimal wellness without shame or hesitation.
@@ -71,10 +73,12 @@ export default function AboutPage() {
             </div>
             <div className="order-1 lg:order-2 relative aspect-[4/5] rounded-2xl overflow-hidden group">
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent z-10" />
-              <img 
+              <img
                 src="https://assets.cdn.filesafe.space/VSqlfyiMHv6EpHAvboBv/media/6820a4573cb6ae880666f1fb.jpeg"
                 alt="Dr. Bobby Gearing"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                loading="lazy"
+                decoding="async"
               />
             </div>
           </div>
@@ -96,7 +100,7 @@ export default function AboutPage() {
             {[
               {
                 title: "Science-Based & Personalized",
-                description: "We never rely on templates or trends—your treatment plan is tailored specifically to your unique physiology.",
+                description: "We never rely on templates or trends. Your treatment plan is tailored specifically to your unique physiology.",
                 icon: Stethoscope
               },
               {

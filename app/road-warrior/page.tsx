@@ -36,7 +36,7 @@ export default function RoadWarriorPage() {
               <span className="text-gradient">Long Haul.</span>
             </h1>
             <p className="max-w-2xl text-xl text-gray-400 font-light leading-relaxed mb-12">
-              The road is your life, but it shouldn&apos;t be your limit. We provide the elite medical support truckers need to optimize energy, shed weight, and maintain peak hormonal health—wherever the highway takes you.
+              The road is your life, but it shouldn&apos;t be your limit. We provide the elite medical support truckers need to optimize energy, shed weight, and maintain peak hormonal health, wherever the highway takes you.
             </p>
             <div className="flex flex-col sm:flex-row gap-6">
               <button

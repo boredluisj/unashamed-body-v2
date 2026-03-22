@@ -13,7 +13,7 @@ const posts = [
     slug: 'low-testosterone-signs',
     title: "What Is Low Testosterone? 7 Signs You Shouldn't Ignore",
     excerpt:
-      "Low T doesn't always look like you'd expect. Fatigue, brain fog, and mood changes are just as common as low libido — and they compound with age. Here's how to know if your testosterone is the problem.",
+      "Low T doesn't always look like you'd expect. Fatigue, brain fog, and mood changes are just as common as low libido, and they compound with age. Here's how to know if your testosterone is the problem.",
     date: 'January 15, 2025',
     readTime: '5 min read',
     tag: 'TRT',
@@ -22,7 +22,7 @@ const posts = [
     slug: 'trt-vs-testosterone-boosters',
     title: 'TRT vs. Natural Testosterone Boosters: What Actually Works',
     excerpt:
-      "Over-the-counter testosterone supplements are a $5 billion industry — and most of them do very little. Here's what the research actually shows about supplements vs. medically supervised TRT.",
+      "Over-the-counter testosterone supplements are a $5 billion industry, and most of them do very little. Here's what the research actually shows about supplements vs. medically supervised TRT.",
     date: 'January 20, 2025',
     readTime: '5 min read',
     tag: 'TRT',

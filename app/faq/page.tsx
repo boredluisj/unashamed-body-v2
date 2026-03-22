@@ -14,7 +14,7 @@ const faqs = [
   },
   {
     question: 'How does Testosterone Replacement Therapy (TRT) work?',
-    answer: 'TRT replaces or supplements your body\'s natural testosterone production to restore levels to an optimal range. After reviewing your bloodwork, Dr. Gearing prescribes a personalized protocol — typically weekly self-administered injections. Medication, syringes, and all supplies are shipped directly to your door. We monitor your levels regularly and adjust dosing as needed.',
+    answer: 'TRT replaces or supplements your body\'s natural testosterone production to restore levels to an optimal range. After reviewing your bloodwork, Dr. Gearing prescribes a personalized protocol, typically weekly self-administered injections. Medication, syringes, and all supplies are shipped directly to your door. We monitor your levels regularly and adjust dosing as needed.',
   },
   {
     question: 'Is my treatment completely private?',
@@ -34,7 +34,7 @@ const faqs = [
   },
   {
     question: 'Can I do everything online via telehealth?',
-    answer: 'Yes. The entire patient journey — consultation, lab review, prescription management, and follow-ups — can be handled remotely via our secure telehealth platform. You visit a local LabCorp for your blood draw, then everything else is handled virtually. Medications ship directly to your home.',
+    answer: 'Yes. The entire patient journey (consultation, lab review, prescription management, and follow-ups) can be handled remotely via our secure telehealth platform. You visit a local LabCorp for your blood draw, then everything else is handled virtually. Medications ship directly to your home.',
   },
   {
     question: 'What is the Road Warrior program?',
@@ -42,7 +42,7 @@ const faqs = [
   },
   {
     question: 'Do you treat erectile dysfunction (ED)?',
-    answer: 'Yes. We offer multiple non-invasive ED treatment pathways tailored to the underlying cause — whether vascular, hormonal, or psychological. Options may include oral medications, peptide therapy (PT-141), or addressing root cause hormonal imbalances. All consultations are judgment-free and completely private.',
+    answer: 'Yes. We offer multiple non-invasive ED treatment pathways tailored to the underlying cause, whether vascular, hormonal, or psychological. Options may include oral medications, peptide therapy (PT-141), or addressing root cause hormonal imbalances. All consultations are judgment-free and completely private.',
   },
   {
     question: 'Is medical weight loss available for women too?',
@@ -50,7 +50,7 @@ const faqs = [
   },
   {
     question: 'What is peptide therapy?',
-    answer: 'Peptides are short chains of amino acids that signal specific biological processes. The peptides we use — including Sermorelin (growth hormone stimulator), Pentadeca Arginate (healing and recovery), and PT-141 (libido and energy) — are used to support muscle growth, fat loss, sleep quality, and recovery. They\'re often combined with TRT for enhanced results.',
+    answer: 'Peptides are short chains of amino acids that signal specific biological processes. The peptides we use, including Sermorelin (growth hormone stimulator), Pentadeca Arginate (healing and recovery), and PT-141 (libido and energy), are used to support muscle growth, fat loss, sleep quality, and recovery. They\'re often combined with TRT for enhanced results.',
   },
   {
     question: 'Do I need to come in person or can everything be done remotely?',
@@ -58,7 +58,7 @@ const faqs = [
   },
   {
     question: 'What is Unashamed Mind?',
-    answer: 'Unashamed Mind ($150/month as an add-on, $200 standalone) is a mental health support service integrated with your physical health optimization. It includes consultations with a psychiatric NP, confidential medication management, and mental health coaching — all via our HIPAA-compliant platform. Mental and hormonal health are deeply connected, and we treat both.',
+    answer: 'Unashamed Mind ($150/month as an add-on, $200 standalone) is a mental health support service integrated with your physical health optimization. It includes consultations with a psychiatric NP, confidential medication management, and mental health coaching, all via our HIPAA-compliant platform. Mental and hormonal health are deeply connected, and we treat both.',
   },
   {
     question: 'How is Unashamed Body different from other men\'s health clinics?',

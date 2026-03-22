@@ -6,7 +6,7 @@ import { ArrowLeft, ArrowRight } from 'lucide-react';
 export const metadata: Metadata = {
   title: 'TRT vs. Natural Testosterone Boosters: What Actually Works | Unashamed Body',
   description:
-    "Comparing TRT to over-the-counter testosterone supplements — what the research actually shows. Serving McDonough, GA and the greater Atlanta area.",
+    "Comparing TRT to over-the-counter testosterone supplements and what the research actually shows. Serving McDonough, GA and the greater Atlanta area.",
 };
 
 export default function TRTvsSupplements() {
@@ -35,23 +35,23 @@ export default function TRTvsSupplements() {
             What Over-the-Counter "T Boosters" Actually Contain
           </h2>
           <p>
-            Most over-the-counter testosterone supplements contain some combination of the following: ashwagandha, D-aspartic acid, fenugreek, zinc, vitamin D, and tribulus terrestris. Some of these — particularly zinc and vitamin D — do have a role in testosterone production, but only if you're deficient in them. If you're already getting adequate levels from diet and sun exposure, supplementing more won't raise your testosterone further.
+            Most over-the-counter testosterone supplements contain some combination of the following: ashwagandha, D-aspartic acid, fenugreek, zinc, vitamin D, and tribulus terrestris. Some of these, particularly zinc and vitamin D, do have a role in testosterone production, but only if you're deficient in them. If you're already getting adequate levels from diet and sun exposure, supplementing more won't raise your testosterone further.
           </p>
           <p>
-            The ingredient most heavily marketed — D-aspartic acid — showed modest short-term effects in some early studies, but later, better-designed research found no significant testosterone increase in normal healthy men. Tribulus terrestris, despite decades of marketing claims, has consistently failed to demonstrate meaningful testosterone elevation in human clinical trials.
+            The ingredient most heavily marketed, D-aspartic acid, showed modest short-term effects in some early studies, but later, better-designed research found no significant testosterone increase in normal healthy men. Tribulus terrestris, despite decades of marketing claims, has consistently failed to demonstrate meaningful testosterone elevation in human clinical trials.
           </p>
 
           <h2 className="text-2xl font-serif font-bold text-[#F0EFFF] mt-12 mb-4">
             The Core Problem: Supplements Don't Address True Hypogonadism
           </h2>
           <p>
-            Clinically low testosterone — hypogonadism — is a condition where your body's testosterone production is genuinely impaired. This can result from aging, testicular dysfunction, pituitary issues, chronic stress, obesity, or other medical factors. No supplement addresses the underlying mechanism causing low production.
+            Clinically low testosterone (hypogonadism) is a condition where your body's testosterone production is genuinely impaired. This can result from aging, testicular dysfunction, pituitary issues, chronic stress, obesity, or other medical factors. No supplement addresses the underlying mechanism causing low production.
           </p>
           <p>
             Think of it this way: if your car's fuel pump is failing, no amount of premium fuel is going to fix the pump. Supplements might slightly optimize an already functioning system. They do nothing to correct a failing one.
           </p>
           <p>
-            Men with clinically low testosterone who rely on supplements instead of medical treatment don't just stay symptomatic — they often get worse, because the underlying cause isn't addressed while years pass.
+            Men with clinically low testosterone who rely on supplements instead of medical treatment don't just stay symptomatic. They often get worse, because the underlying cause isn't addressed while years pass.
           </p>
 
           <h2 className="text-2xl font-serif font-bold text-[#F0EFFF] mt-12 mb-4">
@@ -61,7 +61,7 @@ export default function TRTvsSupplements() {
             Testosterone Replacement Therapy directly introduces pharmaceutical-grade testosterone into your system, restoring levels to a clinically optimal range. At Unashamed Body, this is done through weekly self-administered injections, with dosing calibrated to your individual lab results and monitored through regular follow-up bloodwork.
           </p>
           <p>
-            The effects are measurable because the intervention is direct. Labs confirm your testosterone is in the optimal range. Symptoms — fatigue, low libido, brain fog, mood changes, muscle loss — improve in proportion to how well your levels are restored and maintained.
+            The effects are measurable because the intervention is direct. Labs confirm your testosterone is in the optimal range. Symptoms (fatigue, low libido, brain fog, mood changes, muscle loss) improve in proportion to how well your levels are restored and maintained.
           </p>
           <p>
             TRT is not a shortcut or a lifestyle choice. It's a medical treatment for a medical condition, prescribed and supervised by a licensed provider.
@@ -71,7 +71,7 @@ export default function TRTvsSupplements() {
             Who Is TRT Appropriate For?
           </h2>
           <p>
-            TRT is appropriate for men who have both confirmed low testosterone on bloodwork AND symptoms consistent with low T. The diagnosis requires more than a single total testosterone number — it should include free testosterone, SHBG, estradiol, and a clinical evaluation of symptoms.
+            TRT is appropriate for men who have both confirmed low testosterone on bloodwork AND symptoms consistent with low T. The diagnosis requires more than a single total testosterone number. It should include free testosterone, SHBG, estradiol, and a clinical evaluation of symptoms.
           </p>
           <p>
             Men who are considering fathering children in the near term should discuss this with their provider, as TRT suppresses natural testosterone production and sperm output. Options like HCG can be added to the protocol to address this. Men with certain cardiovascular conditions or polycythemia risk factors should also discuss risk-benefit carefully with their provider.
@@ -81,10 +81,10 @@ export default function TRTvsSupplements() {
             The Bottom Line
           </h2>
           <p>
-            If your testosterone is genuinely low, supplements are not the answer. They're not dangerous, but they're not effective either — and time spent on supplements is time not spent on actual treatment. If your testosterone is in a normal range and you're optimizing from a healthy baseline, some supplements (vitamin D, zinc if deficient, ashwagandha for stress) have modest supporting roles.
+            If your testosterone is genuinely low, supplements are not the answer. They're not dangerous, but they're not effective either. Time spent on supplements is time not spent on actual treatment. If your testosterone is in a normal range and you're optimizing from a healthy baseline, some supplements (vitamin D, zinc if deficient, ashwagandha for stress) have modest supporting roles.
           </p>
           <p>
-            The only way to know where you stand is to test. A comprehensive lab panel — not a single total testosterone number — gives you the real picture. From there, a qualified provider can tell you whether TRT is appropriate or whether lifestyle optimization is the right path.
+            The only way to know where you stand is to test. A comprehensive lab panel (not a single total testosterone number) gives you the real picture. From there, a qualified provider can tell you whether TRT is appropriate or whether lifestyle optimization is the right path.
           </p>
         </div>
 

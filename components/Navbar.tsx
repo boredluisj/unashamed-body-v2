@@ -38,6 +38,8 @@ export function Navbar() {
                     alt="Unashamed Body"
                     className="h-16 w-auto object-contain transition-transform group-hover:scale-105 relative z-10 mix-blend-screen"
                     style={{ maskImage: 'radial-gradient(ellipse at center, black 55%, transparent 90%)', WebkitMaskImage: 'radial-gradient(ellipse at center, black 55%, transparent 90%)' }}
+                    fetchPriority="high"
+                    decoding="async"
                   />
                 </div>
               </Link>
@@ -73,6 +75,9 @@ export function Navbar() {
                   setIsOpen(!isOpen);
                   clickSound();
                 }}
+                aria-expanded={isOpen}
+                aria-controls="mobile-menu"
+                aria-label={isOpen ? "Close navigation menu" : "Open navigation menu"}
                 className="text-white p-2 hover:bg-white/5 rounded-xl transition-all"
               >
                 {isOpen ? <X className="w-8 h-8" /> : <Menu className="w-8 h-8" />}
@@ -82,7 +87,9 @@ export function Navbar() {
         </div>
 
         {/* Mobile Menu */}
-        <div className={cn(
+        <div
+          id="mobile-menu"
+          className={cn(
           "fixed inset-0 top-24 bg-black/95 backdrop-blur-3xl lg:hidden transition-all duration-500 z-40 transform",
           isOpen ? "translate-x-0 opacity-100" : "translate-x-full opacity-0"
         )}>

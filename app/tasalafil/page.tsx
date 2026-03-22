@@ -29,7 +29,7 @@ export default function TadalafilPage() {
               Spontaneous <span className="text-primary italic">Performance.</span>
             </h2>
             <p className="text-xl text-gray-400 font-light leading-relaxed">
-              Our ED treatments address the root cause of poor sexual performance through a combination of medical, hormonal, and lifestyle solutions — without just masking symptoms with pills.
+              Our ED treatments address the root cause of poor sexual performance through a combination of medical, hormonal, and lifestyle solutions, without just masking symptoms with pills.
             </p>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

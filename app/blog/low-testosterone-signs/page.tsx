@@ -6,7 +6,7 @@ import { ArrowLeft, ArrowRight } from 'lucide-react';
 export const metadata: Metadata = {
   title: "What Is Low Testosterone? 7 Signs You Shouldn't Ignore | Unashamed Body",
   description:
-    "Learn the 7 most common signs of low T in men — and why ignoring them gets worse with age. TRT clinic serving McDonough, GA and the greater Atlanta area.",
+    "Learn the 7 most common signs of low T in men, and why ignoring them gets worse with age. TRT clinic serving McDonough, GA and the greater Atlanta area.",
 };
 
 export default function LowTestosteroneSigns() {
@@ -28,7 +28,7 @@ export default function LowTestosteroneSigns() {
         <div className="prose prose-invert prose-lg max-w-none text-[#9CA3AF] leading-relaxed space-y-8">
 
           <p className="text-[#F0EFFF] text-xl font-light leading-relaxed">
-            Testosterone is the hormone that fuels a man's energy, drive, body composition, and sexual function. And after age 30, it declines at roughly 1% per year. That sounds gradual — but the cumulative effect can be dramatic by the time most men seek help.
+            Testosterone is the hormone that fuels a man's energy, drive, body composition, and sexual function. And after age 30, it declines at roughly 1% per year. That sounds gradual, but the cumulative effect can be dramatic by the time most men seek help.
           </p>
 
           <p>
@@ -41,12 +41,12 @@ export default function LowTestosteroneSigns() {
 
           <h3 className="text-lg font-bold text-[#F0EFFF] mt-8 mb-2">1. Persistent Fatigue</h3>
           <p>
-            This isn't ordinary tiredness. Men with low T often describe feeling exhausted no matter how much they sleep — like running on empty from the moment they wake up. Testosterone plays a direct role in energy metabolism and red blood cell production, so low levels translate directly into low energy.
+            This isn't ordinary tiredness. Men with low T often describe feeling exhausted no matter how much they sleep, like running on empty from the moment they wake up. Testosterone plays a direct role in energy metabolism and red blood cell production, so low levels translate directly into low energy.
           </p>
 
           <h3 className="text-lg font-bold text-[#F0EFFF] mt-8 mb-2">2. Decreased Libido</h3>
           <p>
-            A reduced sex drive is one of the most recognized symptoms of low T, but it's often the last thing men connect to a hormonal issue. If your interest in sex has declined significantly over months or years, that's your biology talking — not your relationship or your stress level.
+            A reduced sex drive is one of the most recognized symptoms of low T, but it's often the last thing men connect to a hormonal issue. If your interest in sex has declined significantly over months or years, that's your biology talking, not your relationship or your stress level.
           </p>
 
           <h3 className="text-lg font-bold text-[#F0EFFF] mt-8 mb-2">3. Brain Fog and Poor Concentration</h3>
@@ -56,29 +56,29 @@ export default function LowTestosteroneSigns() {
 
           <h3 className="text-lg font-bold text-[#F0EFFF] mt-8 mb-2">4. Mood Changes and Irritability</h3>
           <p>
-            Low testosterone is closely linked to depression, anxiety, and irritability. Many men with low T describe a flattened emotional state — less motivation, less optimism, shorter fuse. These mood changes are physiological, not psychological weakness.
+            Low testosterone is closely linked to depression, anxiety, and irritability. Many men with low T describe a flattened emotional state: less motivation, less optimism, shorter fuse. These mood changes are physiological, not psychological weakness.
           </p>
 
           <h3 className="text-lg font-bold text-[#F0EFFF] mt-8 mb-2">5. Unexplained Weight Gain (Especially Around the Abdomen)</h3>
           <p>
-            Testosterone helps regulate fat distribution. When it drops, fat tends to accumulate in the midsection while muscle mass decreases — even without significant changes in diet or activity. This shift also increases cardiovascular risk over time.
+            Testosterone helps regulate fat distribution. When it drops, fat tends to accumulate in the midsection while muscle mass decreases, even without significant changes in diet or activity. This shift also increases cardiovascular risk over time.
           </p>
 
           <h3 className="text-lg font-bold text-[#F0EFFF] mt-8 mb-2">6. Loss of Muscle Mass and Strength</h3>
           <p>
-            Testosterone is anabolic — it drives muscle protein synthesis. Men with low T often notice that workouts stop producing results, or that they're losing muscle even while training regularly. This is a direct biological effect, not a training problem.
+            Testosterone is anabolic, driving muscle protein synthesis. Men with low T often notice that workouts stop producing results, or that they're losing muscle even while training regularly. This is a direct biological effect, not a training problem.
           </p>
 
           <h3 className="text-lg font-bold text-[#F0EFFF] mt-8 mb-2">7. Sleep Disturbances</h3>
           <p>
-            Low testosterone disrupts sleep quality, often contributing to insomnia or non-restorative sleep. The relationship is bidirectional — poor sleep also suppresses testosterone production, creating a compounding cycle that worsens both problems over time.
+            Low testosterone disrupts sleep quality, often contributing to insomnia or non-restorative sleep. The relationship is bidirectional. Poor sleep also suppresses testosterone production, creating a compounding cycle that worsens both problems over time.
           </p>
 
           <h2 className="text-2xl font-serif font-bold text-[#F0EFFF] mt-12 mb-4">
             What's Considered "Low"?
           </h2>
           <p>
-            A standard lab reference range lists "normal" testosterone as 300–1,000 ng/dL. But normal is not the same as optimal. Many men in the low-to-mid range experience significant symptoms even though their number technically falls within range. That's why comprehensive testing and a clinical evaluation matter — not just a single number.
+            A standard lab reference range lists "normal" testosterone as 300-1,000 ng/dL. But normal is not the same as optimal. Many men in the low-to-mid range experience significant symptoms even though their number technically falls within range. That's why comprehensive testing and a clinical evaluation matter, not just a single number.
           </p>
           <p>
             At Unashamed Body, your new patient lab panel checks total testosterone, free testosterone, SHBG, estradiol, thyroid, adrenal function, and more than 40 additional biomarkers. We treat the whole picture, not a single data point.
@@ -88,7 +88,7 @@ export default function LowTestosteroneSigns() {
             What To Do Next
           </h2>
           <p>
-            If you recognize yourself in 3 or more of these signs, a hormonal evaluation is the right next step. Testing is straightforward — a simple blood draw at a local LabCorp — and results come back within days.
+            If you recognize yourself in 3 or more of these signs, a hormonal evaluation is the right next step. Testing is straightforward: a simple blood draw at a local LabCorp, and results come back within days.
           </p>
           <p>
             You don't have to accept low energy, declining performance, or mood changes as an inevitable part of getting older. These are treatable conditions, and the men who address them early see the best results.
@@ -99,7 +99,7 @@ export default function LowTestosteroneSigns() {
         <div className="mt-16 p-8 md:p-12 border border-[#DC2626]/20 rounded-3xl bg-[#DC2626]/5 text-center">
           <h3 className="text-2xl font-serif font-black text-[#F0EFFF] mb-3">Sound familiar?</h3>
           <p className="text-[#9CA3AF] font-light mb-6 max-w-md mx-auto">
-            Book a new patient consultation at Unashamed Body. Includes comprehensive labs and a personalized treatment plan — all in one appointment.
+            Book a new patient consultation at Unashamed Body. Includes comprehensive labs and a personalized treatment plan, all in one appointment.
           </p>
           <Link
             href="/contact"

@@ -75,7 +75,7 @@ export function Hero() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-20 text-center">
         {/* Floating trust badges above headline */}
         <div className="flex flex-wrap justify-center gap-3 mb-8">
-          {["Concierge Care — No Waiting Rooms", "Board-Certified Medical Director", "Telehealth + In-Person Available"].map((badge, i) => (
+          {["Concierge Care: No Waiting Rooms", "Board-Certified Medical Director", "Telehealth + In-Person Available"].map((badge, i) => (
             <div key={i} className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#111118]/80 border border-[#1E1E28] backdrop-blur-sm">
               <span className="text-[#DC2626] text-sm">✓</span>
               <span className="text-xs font-medium tracking-wide text-[#9CA3AF] uppercase">{badge}</span>
@@ -94,7 +94,7 @@ export function Hero() {
         </h1>
 
         <p className="max-w-2xl mx-auto text-lg md:text-xl text-[#9CA3AF] font-light mb-12 leading-relaxed">
-          Concierge men&apos;s health care in McDonough, GA. Personalized TRT, ED treatment, and weight loss — no waiting rooms, no cookie-cutter plans.
+          Concierge men&apos;s health care in McDonough, GA. Personalized TRT, ED treatment, and weight loss. No waiting rooms, no cookie-cutter plans.
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-6">

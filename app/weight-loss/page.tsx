@@ -92,7 +92,7 @@ export default function WeightLossPage() {
             <div className="bg-gradient-to-br from-primary/10 to-transparent p-12 rounded-[3rem] border border-white/5 backdrop-blur-3xl">
               <h3 className="text-3xl font-serif font-bold mb-6 italic text-primary">Beyond the Scale.</h3>
               <p className="text-gray-400 text-lg font-light leading-relaxed mb-8">
-                &ldquo;Weight loss is about more than aesthetics—it&apos;s about metabolic freedom. Our patients experience improved heart health, better blood sugar regulation, and a renewed sense of confidence that impacts every area of their life.&rdquo;
+                &ldquo;Weight loss is about more than aesthetics. It&apos;s about metabolic freedom. Our patients experience improved heart health, better blood sugar regulation, and a renewed sense of confidence that impacts every area of their life.&rdquo;
               </p>
               <div className="flex items-center gap-4">
                 <div className="w-12 h-1 bg-primary" />

@@ -46,19 +46,25 @@ export function GHLFormEmbed({ type, embedUrl, isOpen, onClose, isInline }: GHLF
   }
 
   return (
-    <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 md:p-8">
+    <div
+      role="dialog"
+      aria-modal="true"
+      aria-label="Book a Consultation"
+      className="fixed inset-0 z-[100] flex items-center justify-center p-4 md:p-8"
+    >
       {/* Backdrop */}
-      <div 
+      <div
         className="absolute inset-0 bg-black/80 backdrop-blur-sm animate-in fade-in duration-300"
         onClick={onClose}
       />
-      
+
       {/* Modal Container */}
       <div className="relative w-full max-w-4xl h-[80vh] bg-black border border-white/10 rounded-2xl overflow-hidden shadow-2xl shadow-primary/20 animate-in zoom-in-95 duration-300">
         {/* Header */}
         <div className="absolute top-4 right-4 z-10">
-          <button 
+          <button
             onClick={onClose}
+            aria-label="Close booking form"
             className="p-2 bg-white/10 hover:bg-white/20 rounded-full text-white transition-colors"
           >
             <X className="w-5 h-5" />

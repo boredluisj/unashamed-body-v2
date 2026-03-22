@@ -28,7 +28,7 @@ export default function EDat40() {
         <div className="prose prose-invert prose-lg max-w-none text-[#9CA3AF] leading-relaxed space-y-8">
 
           <p className="text-[#F0EFFF] text-xl font-light leading-relaxed">
-            Erectile dysfunction is often framed as an old man's problem. It's not. Studies consistently show that roughly 40% of men experience some degree of ED by age 40, and the prevalence increases by about 10% for every decade after that. What's less discussed is that ED at 40 is usually a signal — not a sentence.
+            Erectile dysfunction is often framed as an old man's problem. It's not. Studies consistently show that roughly 40% of men experience some degree of ED by age 40, and the prevalence increases by about 10% for every decade after that. What's less discussed is that ED at 40 is usually a signal, not a sentence.
           </p>
 
           <p>
@@ -44,7 +44,7 @@ export default function EDat40() {
 
           <h3 className="text-lg font-bold text-[#F0EFFF] mt-8 mb-2">Vascular (Most Common in Men Over 40)</h3>
           <p>
-            The same arterial disease process that contributes to heart disease also impairs the small blood vessels that enable erections. High blood pressure, elevated cholesterol, obesity, smoking, and diabetes all damage vascular function over time. ED is often an early warning sign of cardiovascular disease — in fact, research shows that men who develop ED are significantly more likely to have a cardiac event within 5 years if the underlying vascular risk factors aren't addressed.
+            The same arterial disease process that contributes to heart disease also impairs the small blood vessels that enable erections. High blood pressure, elevated cholesterol, obesity, smoking, and diabetes all damage vascular function over time. ED is often an early warning sign of cardiovascular disease. Research shows that men who develop ED are significantly more likely to have a cardiac event within 5 years if the underlying vascular risk factors aren't addressed.
           </p>
 
           <h3 className="text-lg font-bold text-[#F0EFFF] mt-8 mb-2">Hormonal (Testosterone and Estrogen)</h3>
@@ -54,7 +54,7 @@ export default function EDat40() {
 
           <h3 className="text-lg font-bold text-[#F0EFFF] mt-8 mb-2">Psychological</h3>
           <p>
-            Performance anxiety, depression, relationship stress, and past negative experiences can all contribute to or perpetuate ED even when the physiological baseline is healthy. It's also worth noting that psychological and physical causes frequently overlap — a man who experienced one episode of ED due to stress can develop ongoing anxiety about performance that perpetuates the problem.
+            Performance anxiety, depression, relationship stress, and past negative experiences can all contribute to or perpetuate ED even when the physiological baseline is healthy. It's also worth noting that psychological and physical causes frequently overlap. A man who experienced one episode of ED due to stress can develop ongoing anxiety about performance that perpetuates the problem.
           </p>
 
           <h3 className="text-lg font-bold text-[#F0EFFF] mt-8 mb-2">Medications</h3>
@@ -71,12 +71,12 @@ export default function EDat40() {
 
           <h3 className="text-lg font-bold text-[#F0EFFF] mt-8 mb-2">PDE5 Inhibitors (Sildenafil, Tadalafil)</h3>
           <p>
-            These are the well-known oral medications — Viagra and Cialis and their generic equivalents. They work by increasing blood flow to penile tissue. They're highly effective for vascular ED and have a strong safety profile. Tadalafil (daily low-dose) is particularly useful as it provides around-the-clock coverage without requiring timing around activity.
+            These are the well-known oral medications, Viagra and Cialis and their generic equivalents. They work by increasing blood flow to penile tissue. They're highly effective for vascular ED and have a strong safety profile. Tadalafil (daily low-dose) is particularly useful as it provides around-the-clock coverage without requiring timing around activity.
           </p>
 
           <h3 className="text-lg font-bold text-[#F0EFFF] mt-8 mb-2">Peptide Therapy (PT-141)</h3>
           <p>
-            PT-141 (bremelanotide) works differently from PDE5 inhibitors — it acts on the central nervous system to increase sexual desire and arousal, rather than just improving blood flow. It's particularly effective for men who don't respond well to oral medications or who have a psychological component to their ED. When combined with TRT in men who also have low testosterone, the results are often significantly better than either approach alone.
+            PT-141 (bremelanotide) works differently from PDE5 inhibitors. It acts on the central nervous system to increase sexual desire and arousal, rather than just improving blood flow. It's particularly effective for men who don't respond well to oral medications or who have a psychological component to their ED. When combined with TRT in men who also have low testosterone, the results are often significantly better than either approach alone.
           </p>
 
           <h3 className="text-lg font-bold text-[#F0EFFF] mt-8 mb-2">Testosterone Optimization</h3>
@@ -86,14 +86,14 @@ export default function EDat40() {
 
           <h3 className="text-lg font-bold text-[#F0EFFF] mt-8 mb-2">Lifestyle Factors</h3>
           <p>
-            Regular aerobic exercise, weight loss in overweight men, reducing alcohol intake, and stopping smoking all have clinically meaningful effects on erectile function — especially when vascular factors are involved. These aren't optional add-ons; they're core to the treatment plan.
+            Regular aerobic exercise, weight loss in overweight men, reducing alcohol intake, and stopping smoking all have clinically meaningful effects on erectile function, especially when vascular factors are involved. These aren't optional add-ons; they're core to the treatment plan.
           </p>
 
           <h2 className="text-2xl font-serif font-bold text-[#F0EFFF] mt-12 mb-4">
             The Conversation You Keep Avoiding
           </h2>
           <p>
-            ED carries an enormous amount of shame for men who experience it. That shame is what keeps most men from seeking help for years — sometimes decades. At Unashamed Body, it's one of the most common issues we treat. Our consultations are completely private, judgment-free, and handled with the same clinical professionalism as any other health concern.
+            ED carries an enormous amount of shame for men who experience it. That shame is what keeps most men from seeking help for years, sometimes decades. At Unashamed Body, it's one of the most common issues we treat. Our consultations are completely private, judgment-free, and handled with the same clinical professionalism as any other health concern.
           </p>
           <p>
             You don't have to accept this as part of aging. You don't have to have this conversation alone. And the sooner it's addressed, the more options are on the table.

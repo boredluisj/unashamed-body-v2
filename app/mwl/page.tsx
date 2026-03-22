@@ -112,7 +112,7 @@ export default function MedicalWeightLossPage() {
                 <div>
                   <p className="text-white font-medium mb-2 uppercase text-sm tracking-widest">Q: Is this only for men?</p>
                   <p className="text-gray-400 font-light leading-relaxed">
-                    While we specialize in men's health, our weight loss program is available to any adult who qualifies medically—including women. If you're ready to lose weight and improve your health, we're here to help.
+                    While we specialize in men's health, our weight loss program is available to any adult who qualifies medically, including women. If you're ready to lose weight and improve your health, we're here to help.
                   </p>
                 </div>
               </div>

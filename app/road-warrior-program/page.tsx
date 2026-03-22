@@ -23,7 +23,7 @@ export default function RoadWarriorPage() {
               Running On <span className="text-primary italic">Empty?</span>
             </h2>
             <p className="text-xl text-gray-400 font-light leading-relaxed">
-              If you’ve been dealing with low energy, weight gain, poor sleep, or low drive—you’re not alone. The road doesn’t have to be a dead end for your health.
+              If you’ve been dealing with low energy, weight gain, poor sleep, or low drive, you’re not alone. The road doesn’t have to be a dead end for your health.
             </p>
             <p className="text-lg text-gray-500 font-light italic">
               "Real, reliable care that moves with you so you can focus on the road, not the waiting room."
@@ -40,10 +40,12 @@ export default function RoadWarriorPage() {
           </div>
           
           <div className="relative aspect-[4/5] rounded-3xl overflow-hidden group border border-white/5">
-             <img 
+             <img
               src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/VSqlfyiMHv6EpHAvboBv/media/68261329feeed78081e9c95a.jpeg"
               alt="Road Warrior Program"
               className="w-full h-full object-cover grayscale brightness-75 group-hover:grayscale-0 group-hover:brightness-100 transition-all duration-1000"
+              loading="lazy"
+              decoding="async"
             />
             <div className="absolute bottom-8 left-8 right-8 luxury-card p-6 backdrop-blur-md bg-black/40 border-white/10">
                <span className="text-primary font-bold uppercase tracking-[0.3em] text-[10px] mb-2 block">Exclusive Program</span>

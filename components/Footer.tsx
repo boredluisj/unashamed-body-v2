@@ -27,6 +27,8 @@ export function Footer() {
                   alt="Unashamed Body"
                   className="h-16 w-auto object-contain transition-transform group-hover:scale-105 mix-blend-screen"
                   style={{ maskImage: 'radial-gradient(ellipse at center, black 55%, transparent 90%)', WebkitMaskImage: 'radial-gradient(ellipse at center, black 55%, transparent 90%)' }}
+                  loading="lazy"
+                  decoding="async"
                 />
               </Link>
               <p className="text-gray-500 leading-relaxed font-light text-sm">

@@ -87,15 +87,17 @@ export default function MentalHealthPage() {
                   onClick={() => setIsModalOpen(true)}
                   className="px-10 py-4 rounded-full bg-primary text-black font-bold hover:bg-primary-hover transition-all"
                 >
-                  Get Started — $150/mo add-on
+                  Get Started: $150/mo add-on
                 </button>
               </div>
             </div>
             <div className="relative">
               <img 
-                src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/VSqlfyiMHv6EpHAvboBv/media/68261329feeed78081e9c95a.jpeg" 
-                alt="Mental Clarity" 
+                src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/VSqlfyiMHv6EpHAvboBv/media/68261329feeed78081e9c95a.jpeg"
+                alt="Mental Clarity"
                 className="rounded-2xl border border-white/10"
+                loading="lazy"
+                decoding="async"
               />
               <div className="absolute -bottom-6 -left-6 p-8 rounded-2xl bg-black/80 border border-white/10 backdrop-blur-xl max-w-xs">
                 <Heart className="w-8 h-8 text-primary mb-4" />

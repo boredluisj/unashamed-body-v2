@@ -75,7 +75,7 @@ export default function TRTPage() {
             {[
               {
                 title: "Increased Energy & Vitality",
-                desc: "Restore your stamina. Feel alert, focused, and capable throughout the day—whether working, training, or with family.",
+                desc: "Restore your stamina. Feel alert, focused, and capable throughout the day, whether working, training, or with family.",
                 icon: Zap
               },
               {

@@ -152,7 +152,7 @@ export default function Home() {
                   "{t.quote}"
                 </p>
                 <div className="flex flex-col">
-                  <span className="font-serif font-bold text-[#F0EFFF] text-lg">— {t.author}</span>
+                  <span className="font-serif font-bold text-[#F0EFFF] text-lg">{t.author}</span>
                   <span className="text-xs uppercase tracking-widest text-[#DC2626]/80 font-black mt-1">{t.role}</span>
                 </div>
               </div>
@@ -199,7 +199,7 @@ export default function Home() {
                 slug: "/blog/erectile-dysfunction-40s",
                 tag: "ED Treatment",
                 title: "Erectile Dysfunction at 40: It's More Common Than You Think",
-                excerpt: "ED in your 40s isn't inevitable — it's a medical condition with identifiable causes and effective treatments.",
+                excerpt: "ED in your 40s isn't inevitable. It's a medical condition with identifiable causes and effective treatments.",
                 date: "Jan 25, 2025",
                 readTime: "5 min",
               },
@@ -253,7 +253,7 @@ export default function Home() {
               },
               {
                 q: "Do you accept insurance?",
-                a: "We're cash-pay by design — it removes restrictions so we can prescribe what's actually optimal for you. HSA/FSA cards are accepted.",
+                a: "We're cash-pay by design, which removes restrictions so we can prescribe what's actually optimal for you. HSA/FSA cards are accepted.",
               },
               {
                 q: "Can everything be done via telehealth?",

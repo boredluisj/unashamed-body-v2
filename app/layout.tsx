@@ -70,9 +70,23 @@ export default function RootLayout({
       lang="en"
       className={`${inter.variable} ${sora.variable} h-full antialiased scroll-smooth`}
     >
+      <head>
+        <link rel="preconnect" href="https://storage.googleapis.com" />
+        <link rel="preconnect" href="https://images.leadconnectorhq.com" crossOrigin="" />
+        <link rel="dns-prefetch" href="https://api.leadconnectorhq.com" />
+        <link rel="dns-prefetch" href="https://assets.cdn.filesafe.space" />
+      </head>
       <body className="min-h-full flex flex-col font-sans selection:bg-[#DC2626]/30 bg-[#0A0A0F] text-[#F0EFFF]">
+        <a
+          href="#main-content"
+          className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-[200] focus:px-4 focus:py-2 focus:bg-white focus:text-black focus:rounded-lg focus:font-medium focus:outline-none"
+        >
+          Skip to main content
+        </a>
         <Navbar />
-        {children}
+        <div id="main-content">
+          {children}
+        </div>
         <Footer />
         <script
           type="application/ld+json"
